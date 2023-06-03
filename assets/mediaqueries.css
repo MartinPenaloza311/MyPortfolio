@@ -1,0 +1,120 @@
+/* Tablet */
+@media (max-width: 992px) {
+    .header {
+        gap: 10px;
+    }
+
+    .navbar-list {
+        gap: 10px;
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: #081b29;
+        border: 2px solid #055575;
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }   
+
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+    .menu-label img {
+        height: 30px;
+        width: 30px;
+        background-color: #054158;
+        border-radius: 5px;
+    }
+
+    #menu-toggle:checked + .navbar-list {
+        display: flex;
+    }
+
+    #home {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        max-width: 350px;
+    }
+
+    .about-content {
+        width: 100%;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .about-content h2 {
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .about-content p {
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .portfolio {
+        width: 100%;
+    }
+
+    .portfolio-container {
+        max-width: 100%;
+    }
+
+    .portfolio-layer {
+        max-width: 100%;
+        height: 30px;
+    }
+
+    .portfolio-layer h4 {
+        height: 26px 0;
+        color: #081b29;
+        z-index: 1;
+    }
+    
+    .portfolio-layer p {
+        display: none;
+    }
+
+    .portfolio-layer i {
+        font-size: 10px;
+        z-index: 1;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 576px) {
+    .home {
+        max-width: 200px;
+    }
+
+    .about-content h2 {
+        font-weight: 30px;
+    }
+
+    .about-img img {
+        display: none;
+    }
+
+    .portfolio-box h4 {
+        font-size: 2.2rem;
+    }
+}

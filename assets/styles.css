@@ -357,3 +357,32 @@ main {
     animation: blur-animation 10s ease-in-out infinite alternate;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.menu-label {
+    display: none;
+}
+
+.Footer-Rights p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-small;
+    font-family: cursive;
+}
+
+/* .logo {
+    background: linear-gradient(to top, #081b29, #00abf0);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.home-content h1 {
+    background: linear-gradient(to right, #ededed, #081b29);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+} */

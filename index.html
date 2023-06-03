@@ -5,22 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="/assets/mediaqueries.css">
+    <link rel="stylesheet" href="/assets/animaciones.css">
     <title>My Portfolio</title>
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Martin.</a>
+
+        <a href="#home1" class="logo">Martin.</a>
+
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
+
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/menu.png" alt="menu">
+            </label>
+            
+            <input type="checkbox" id="menu-toggle">
+
+            <ul class="navbar-list">
+            <a href="#home1" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Portfolio</a>        
             <a href="https://forms.gle/a9SYE7RhwyCBFjWD7" target="_blank">Contact</a>
+            </ul>
+            
+            <div class="overlay"></div>
         </nav>
     </header>
 
-    <section class="home">
+    <section class="home" id="home1">
         <div class="home-content">
             <h1>Hola, Soy Martin Peñaloza</h1>
             <h3>Full Stack Developer.</h3>
@@ -117,5 +131,10 @@
 
     
     </main>
+    <footer id="footer">
+        <div class="Footer-Rights">
+            <p>Martin Peñaloza ®</p> 
+        </div>
+    </footer>
 </body>
 </html>
