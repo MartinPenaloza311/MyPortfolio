@@ -103,8 +103,13 @@
 
 @media (max-width: 576px) {
     .home {
-        max-width: 200px;
+        width: 70%;
+        max-width: unset;
+        gap: 10px;
+        display: flex;
+        
     }
+
 
     .about-content h2 {
         font-weight: 30px;
@@ -117,4 +122,11 @@
     .portfolio-box h4 {
         font-size: 2.2rem;
     }
+}
+
+@media (max-width: 350px) {
+    .home-sci {
+        display: none;
+    }
+
 }
